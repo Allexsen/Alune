@@ -43,8 +43,8 @@ header.sticky {
 /* <<< Logo Image >>> */
 .logo-image {
     position: absolute;
-    width: 30vw;
-    height: 50vh;
+    width: 28vw;
+    height: 55vh;
     transition: 1s;
 }
 
