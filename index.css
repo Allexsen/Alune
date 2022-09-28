@@ -237,6 +237,7 @@ main div#hud button {
     border-style: none;
     cursor: pointer;
     border-radius: 50%;
+    font-size: 0.7em;
 }
 
 main div#hud button:active {
@@ -251,7 +252,9 @@ main div#hud div#hud-buttons {
     transform: translateX(-50%);
 }
 
+/* << RESET-ALL BUTTON >> */
 main div#hud div#hud-buttons button {
+    position: relative;
     width: 3.125vw;
     height: 5vh;
 }
@@ -261,20 +264,21 @@ main div#hud div#manabar-current {
     background-color: var(--empty-bar-color);
     width: 30vw;
     height: 3vh;
-    margin: 10px;
+    margin: 5px;
     border-style: solid;
     border-width: 2px;
 }
 
 main div#hud button#reset-manabar {
     position: relative;
-    left: 100%;
+    background-image: url(/images/reset.png);
+    width: 30px;
+    height: 30px;
+    left: 28.2vw;
     top: 50%;
     transform: translateY(-50%);
-    margin: 0;
+    margin-left: 3px;
     padding: 0;
-    width: 7.5%;
-    height: 80%;
 }
 
 /* <<< AMMO COUNTER >>> */
