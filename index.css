@@ -183,6 +183,7 @@ main div#weapon-queue button {
     border-radius: 50%;
     transition: 0.5s;
     background: transparent;
+    cursor: pointer;
 }
 
 .pos1 {
@@ -246,14 +247,21 @@ main div#hud button:active {
 
 main div#hud div#hud-buttons {
     position: relative;
-    width: 75%;
+    width: 50%;
     height: 5vh;
     left: 50%;
     transform: translateX(-50%);
 }
 
+.reset-button {
+    background-image: url(/images/reset.png);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+}
+
 /* << RESET-ALL BUTTON >> */
-main div#hud div#hud-buttons button {
+main div#hud div#hud-buttons button:not(#reset-all) {
     position: relative;
     width: 3.125vw;
     height: 5vh;
@@ -271,7 +279,6 @@ main div#hud div#manabar-current {
 
 main div#hud button#reset-manabar {
     position: relative;
-    background-image: url(/images/reset.png);
     width: 30px;
     height: 30px;
     left: 28.2vw;
@@ -280,6 +287,12 @@ main div#hud button#reset-manabar {
     margin-left: 3px;
     padding: 0;
 }
+
+/* << CDR BOX >>  */
+main div#hud input#cdr {
+    width: 3vw;
+}
+
 
 /* <<< AMMO COUNTER >>> */
 
