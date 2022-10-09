@@ -269,23 +269,15 @@ main div#hud div#hud-buttons button:not(#reset-all) {
 
 /* << CURRENT MANABAR >> */
 main div#hud div#manabar-current {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     background-color: var(--empty-bar-color);
     width: 30vw;
     height: 3vh;
     margin: 5px;
     border-style: solid;
     border-width: 2px;
-}
-
-main div#hud button#reset-manabar {
-    position: relative;
-    width: 30px;
-    height: 30px;
-    left: 28.2vw;
-    top: 50%;
-    transform: translateY(-50%);
-    margin-left: 3px;
-    padding: 0;
 }
 
 /* << CDR BOX >>  */
