@@ -1,0 +1,58 @@
+/* <<< WEAPON QUEUE >>>  */
+main div#weapon-queue {
+    position: absolute;
+    width: 276px;
+    height: 70px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-65%);
+    transition: 1s;
+}
+
+main.visible div#weapon-queue {
+    position: absolute;
+    top: 25vh;
+    left: 50%;
+    transform: translateX(-65%);
+}
+
+main div#weapon-queue button {
+    width: 63px;
+    height: 63px;
+    padding: 3px;
+    border: none;
+    border-radius: 50%;
+    transition: 0.5s;
+    background: transparent;
+    cursor: pointer;
+}
+
+.pos1 {
+    position: absolute;
+    left: 10px;
+}
+
+.pos2 {
+    position: absolute;
+    left: 75px;
+}
+
+.pos3 {
+    position: absolute;
+    left: 140px;
+}
+
+.pos4 {
+    position: absolute;
+    left: 205px;
+}
+
+.pos5 {
+    position: absolute;
+    left: 270px;
+    z-index: 1;
+}
+
+.pos6 {
+    z-index: 2;
+}

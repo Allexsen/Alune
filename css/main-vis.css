@@ -14,18 +14,15 @@
     --button-down-color: rgba(102, 173, 214, 0.705);
 }
 
-
-body {
-    background-color: rgb(53, 53, 53);
-    min-height: 101vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+/* <<<<<< MAIN >>>>>> */
+main {
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: 0.5s;
 }
 
-/* <<< AMMO COUNTER >>> */
-
-/* <<< MANA COUNTER >>>  */
-
-/* <<< DESC >>> */
+main.visible{
+    opacity: 1;
+    transition: 0.5s;
+    transition-delay: 0.2s;
+}
