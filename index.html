@@ -1,53 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alune</title>
-    <link rel="icon" href="./images/favicon.png">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/main-vis.css">
-    <link rel="stylesheet" href="./css/weapon-queue.css">
-    <link rel="stylesheet" href="./css/main-hud.css">
+    <link rel="icon" href="./images/favicon.png" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main-vis.css" />
+    <link rel="stylesheet" href="./css/weapon-queue.css" />
+    <link rel="stylesheet" href="./css/main-hud.css" />
     <script type="module" src="./index.js"></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="./images/AluneUltClassic.png" alt="Alune" class="logo-image">
-        <a href="#" class="logo-text">Alune</a>
-        <h2 class="sub-title">Aphelios Sandbox UI</h2>
-        <nav>
-            <ul>
-                <li><p>Help</p></li>
-                <li><p>Settings</p></li>
-            </ul>
-        </nav>
+      <img src="./images/AluneUltClassic.png" alt="Alune" class="logo-image" />
+      <a href="#" class="logo-text">Alune</a>
+      <h2 class="sub-title">Aphelios Sandbox UI</h2>
+      <nav>
+        <ul>
+          <li><p>Help</p></li>
+          <li><p>Settings</p></li>
+        </ul>
+      </nav>
     </header>
-    
+
     <main>
-        <div id="weapon-queue">
-            <button id="Calibrum", class="pos1"><img src="./images/Calibrum.png"></button>
-            <button id="Severum", class="pos2"><img src="./images/Severum.png"></button>
-            <button id="Gravitum", class="pos3"><img src="./images/Gravitum.png"></button>
-            <button id="Infernum", class="pos4"><img src="./images/Infernum.png"></button>
-            <button id="Crescendum", class="pos5"><img src="./images/Crescendum.png"></button>
+      <div id="weapon-queue">
+        <button id="Calibrum" , class="pos1"><img src="./images/Calibrum.png" /></button>
+        <button id="Severum" , class="pos2"><img src="./images/Severum.png" /></button>
+        <button id="Gravitum" , class="pos3"><img src="./images/Gravitum.png" /></button>
+        <button id="Infernum" , class="pos4"><img src="./images/Infernum.png" /></button>
+        <button id="Crescendum" , class="pos5"><img src="./images/Crescendum.png" /></button>
+      </div>
+
+      <div id="hud">
+        <div id="hud-buttons">
+          <button id="Q-ability"><img src="./images/abilities/CalibrumQ.png" alt="Calibrum Q" /></button>
+          <button id="R-ability"><img src="./images/abilities/Ult.png" alt="Ult" /></button>
+          <input type="text" id="cdr" placeholder="CDR%" />
+          <button id="reset-all" class="reset-button">R</button>
         </div>
-
-        <div id="hud">
-            <div id="hud-buttons">
-                <button id="Q-ability"><img src="./images/abilities/CalibrumQ.png" alt="Calibrum Q"></button>
-                <button id="R-ability"><img src="./images/abilities/Ult.png" alt="Ult"></button>
-                <input type="text" id="cdr" placeholder="CDR%">
-                <button id="reset-all" class="reset-button">R</button>
-            </div>
-            <div id="manabar-current">
-                <button id="reset-manabar" class="reset-button">R</button>
-            </div>
-
+        <div id="manabar-current">
+          <button id="reset-manabar" class="reset-button">R</button>
         </div>
-
+      </div>
     </main>
-</body>
+  </body>
 </html>
